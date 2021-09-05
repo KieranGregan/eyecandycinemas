@@ -81,9 +81,23 @@ body
 .covid img {
   width: 100%;
 }
-.content p {
+.notice p {
   font-size: 20px;
 }
-.content h1 {
+.notice h1 {
   font-size: 50px;
+}
+.notice {
+  position: absolute; /* Position the background text */
+  left:  0;
+  top:  100%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
