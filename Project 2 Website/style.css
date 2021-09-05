@@ -45,15 +45,23 @@
   align-content: centre;
 }
 
-.welcome img{
-  left: 0;
-  align: left;
-  width: 100%;
-  margin-left: 0;
-  position: fixed;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+.welcome img
+{
+    background-position:center;
+    width: 100%;
+    height: 100%
+    margin:  0 auto;
 
+}
+
+body
+{
+    margin: 0
+}
+
+.webcontent
+{
+  margin: 10px;
 }
 
 .content {
