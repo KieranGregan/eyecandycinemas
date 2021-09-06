@@ -5,6 +5,7 @@
      position: fixed;
      top: 0;
      left: 0;
+     z-index: 1;
 }
 /* Style the links inside the navigation bar */
  .topnav a {
@@ -105,4 +106,5 @@
      font-weight: bold;
      font-family: sans-serif;
      margin-top: 5%;
+     /* Editing text style */
 }
