@@ -40,7 +40,7 @@
      width: 20%;
      align-content: centre;
 }
- .welcome {
+ #welcome {
      background-position:left;
      background-size: cover;
      background-image: url("MoviePosters/bg_homeimage.jpg");
@@ -48,7 +48,7 @@
      width: 100%;
      margin: 0 auto 
 }
- .covid {
+ #covid {
      background-position:left;
      background-size: cover;
      background-image: url("MoviePosters/Covid.png");
@@ -79,16 +79,16 @@
      font-weight: bold;
      font-family: sans-serif;
 }
- .covid img {
+ #covid img {
      width: 100%;
 }
- .notice p {
+ #notice p {
      font-size: 20px;
 }
- .notice h1 {
+ #notice h1 {
      font-size: 50px;
 }
- .notice {
+ #notice {
      position: absolute;
     /* Position the background text */
      background: rgb(0, 0, 0);
@@ -107,4 +107,16 @@
      font-family: sans-serif;
      margin-top: 5%;
      /* Editing text style */
+}
+#footing {
+    background: #AAAAAA;
+    width: 100%;
+    position: absolute;
+    
+}
+
+#about {
+    font-size: 20;
+    font-family: sans-serif;
+    width: 20%;
 }
