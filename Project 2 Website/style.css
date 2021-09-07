@@ -193,7 +193,15 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;  
     margin-left: 3%;
+
+
 }
+
+#city {
+
+    width: 51%;
+}
+
 #subject {
     height: 170px;
 }
@@ -203,7 +211,7 @@ input[type=text], select, textarea {
 }
 
 #c_form {
-  background-image: url("MoviePosters/c_image.png");
+  background-image: url("MoviePosters/c_image.png"); 
   background-repeat: no-repeat;
   background-color: #cccccc;
   background-position: right;
