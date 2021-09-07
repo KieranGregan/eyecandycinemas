@@ -161,3 +161,52 @@
 
 }
 
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left: 3%;
+}
+
+#c_form input[type=submit] {
+    background-color: #2A623D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+#c_form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+#c_form input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;  
+    margin-left: 3%;
+}
+#subject {
+    height: 170px;
+}
+
+#c_intro {
+    text-align: center;
+}
+
+#c_form {
+  background-image: url("MoviePosters/c_image.png");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-position:right;
+  padding-right: 0;
+}
+
