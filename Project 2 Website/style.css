@@ -108,12 +108,7 @@
      margin-top: 5%;
      /* Editing text style */
 }
-#footing {
-    background: #AAAAAA;
-    width: 100%;
-    position: absolute;
 
-}
 
 #about {
     font-size: 20px;
@@ -199,7 +194,7 @@ input[type=text], select, textarea {
 
 #city {
 
-    width: 51%;
+    width: 50%;
 }
 
 #subject {
