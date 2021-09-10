@@ -3,12 +3,16 @@
 
   <head>
     <meta charset="utf-8">
+    
     <link rel="stylesheet" href="style.css">
+    
     <!-- <script type="text/javascript" src="script.js"></script> -->
     <script>window.__theme = 'bs4';</script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
     <title>Eye Candy Cinemas</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   </head>
@@ -23,7 +27,7 @@
       <a href="theaters.html">Theaters</a>
       <a href="contact.html">Contact Us </a>
     </div>
-  x  <br> <br>
+    <br> <br>
     <div class="album py-5 bg-light">
         <div class="container">
 
@@ -349,11 +353,19 @@
 
 <!--Script stops video from playing when modal is closed-->
 <script>
+  // on preview show iframe
+$('#myModalPrev').on('show.bs.modal', function (e) {
+  var idVideo = $(e.relatedTarget).data('id');
+  $('#myModalPrev .modal-body').html('<iframe width="100%" height="400px" src="https://www.youtube.com/embed/' + idVideo + '?autoplay=true" frameborder="0" allowfullscreen></iframe>');
+});
+//on close remove
+$('#myModalPrev').on('hidden.bs.modal', function () {
+   $('#myModalPrev .modal-body').empty();
+});
     $("#myModal").on('hidden.bs.modal', function (e) {
         $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
     });
 </script>   
-
 
     <footer style="background-color: #AAAAAA;">
     <div class="container p-4">
